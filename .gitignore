@@ -1,6 +1,8 @@
-*
-!.gitignore
-!.bashrc
-!.zshrc
-!.ssh
-!.config/dconf/
+/*
+!/.gitignore
+!/.bashrc
+!/.zshrc
+!/.config/dconf/user
+!/.ssh
+/.ssh/*
+!/.ssh/config
