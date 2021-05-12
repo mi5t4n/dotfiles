@@ -2,7 +2,11 @@
 !/.gitignore
 !/.bashrc
 !/.zshrc
-!/.config/dconf/user
+
+!/.config
+/.config/*
+!/.config/dconf
+
 !/.ssh
 /.ssh/*
 !/.ssh/config
