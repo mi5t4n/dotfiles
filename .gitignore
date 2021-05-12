@@ -3,6 +3,8 @@
 !/.bashrc
 !/.zshrc
 
+!/input.sh
+
 !/.config
 /.config/*
 !/.config/dconf
