@@ -4,13 +4,13 @@ export PATH=$HOME/bin:/usr/local/bin:$HOME/.config/composer/vendor/bin:$HOME/pro
 # Path to your oh-my-zsh installation.
 export ZSH="/home/kazekage/.oh-my-zsh"
 
-export ANDROID_SDK_ROOT=$HOME/Android/Sdk 
+export ANDROID_SDK_ROOT=$HOME/Android/Sdk
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="agnoster"
+# ZSH_THEME="agnoster"
 #ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
@@ -127,6 +127,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Tilix configuration.
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
-        source /etc/profile.d/vte.sh
+  source /etc/profile.d/vte.sh
 fi
 
+eval "$(starship init zsh)"
